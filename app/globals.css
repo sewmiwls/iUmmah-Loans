@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+:root {
+  --primary-green: #004b2e;
+  --forest-green: #013220;
+  --accent-gold: #c8b273;
+  --soft-gold: #dccb9a;
+  --white: #ffffff;
+  --charcoal: #2b2b2b;
+  --hero-light: #f8faf8;
+  --light-green: #f4f8f5;
+  --premium-bg: #faf8f2;
+  --card-border: #e8e8e8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--hero-light);
+  color: var(--charcoal);
+  font-family: var(--font-inter), Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-playfair), Georgia, serif;
+}
+
+button,
+a {
+  transition: all 0.25s ease;
+}
