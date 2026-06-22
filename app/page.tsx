@@ -93,8 +93,8 @@ const whyChoose = [
     icon: FileText,
   },
   {
-    title: "Easy Apply Process",
-    text: "Easy apply process and verification process designed for convenience.",
+    title: "Easy Application Process",
+    text: "Easy application process and verification process designed for convenience.",
     icon: Clock,
   },
   {
